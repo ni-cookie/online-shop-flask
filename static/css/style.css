@@ -1,0 +1,20 @@
+:root {
+    --color-light: #F7CD95;
+    --color-dark: #8e4238;
+}
+
+header, footer {
+    background: url(/static/images/pattern.png), linear-gradient(135deg,  var(--color-light) 1%, var(--color-dark) 99%);
+    /* background: linear-gradient(135deg,  var(--color-light) 1%, var(--color-dark) 99%); */
+    background-size: contain;
+}
+
+
+/* footer {
+    background: linear-gradient(135deg,  var(--color-light) 1%, var(--color-dark) 99%);
+    background-size: contain;
+} */
+
+.highlight-dark {
+    color: var(--color-dark);
+}

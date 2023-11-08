@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block title %}
+<title xmlns="http://www.w3.org/1999/html">Add item</title>
+{% endblock %} {% block body %}
+<div class="container">
+  <h1>Add item</h1>
+  <form method="post">
+    <input
+      type="text"
+      class="form-control"
+      name="title"
+      id="title"
+      placeholder="Enter name"
+    /><br />
+    <input
+      type="number"
+      class="form-control"
+      name="price"
+      id="price"
+      placeholder="Enter price"
+    /><br />
+    <button class="btn btn-success" type="submit">Add item</button>
+  </form>
+</div>
+{% endblock %}
